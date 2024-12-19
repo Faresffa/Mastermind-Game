@@ -64,10 +64,10 @@ def compare_combinations(win, guess):
     guess_copy = guess[:]
 
     # Vérifier les couleurs bien placées
-    for i in range(LENGTH):
-        if guess[i] == win[i]:
+    for current_index in range(LENGTH):
+        if guess[current_index] == win[current_index]:
             well_placed += 1
-            win_copy[i] = guess_copy[i] = None
+            win_copy[current_index] = guess_copy[current_index] = None
 
     # Vérifier les couleurs mal placées
     for color in guess_copy:
