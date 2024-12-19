@@ -1,6 +1,7 @@
 #voir la video youtube enregistré sur la bib stark
 #voir c'est quoi le probleme de l'execution infinie 
 #continuer le code 
+#a
 import pygame
 import random
 from main import generate_win_combination, get_user_input, compare_combinations, COLORS_TEXT, COLORS, LENGTH, TRIES
